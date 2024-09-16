@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.logo {
+    width: 100px;
+
+}
+
+@media (max-width:760px) {
+    .logo {
+        width: 50px;
+    }
+}
+
+.navbar-toggler {
+    border-style: solid;
+    border-width: 5px;
+    color: black;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-family: Sans-Serif;
+    font-weight: 700;
+    padding: 20px;
+}
+
+
+.body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/008/878/933/non_2x/online-shopping-store-on-smartphone-with-shopping-cart-and-bags-on-purple-background-3d-rendering-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+    min-height: 100%
+}
+
+.home {
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1px;
+    height: 30rem;
+    border-radius: 2rem;
+    background-image: url("https://www.investopedia.com/thmb/zLNtCbKmEiz6aIY5Xz9bpX-pnWA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/amazon-logo-56a8fc825f9b58b7d0f7019e.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: changeBackground 10s infinite;
+    background-repeat: no-repeat;
+}
+
+@keyframes changeBackground {
+    10% {
+        background-image: url('https://www.investopedia.com/thmb/zLNtCbKmEiz6aIY5Xz9bpX-pnWA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/amazon-logo-56a8fc825f9b58b7d0f7019e.jpg');
+    }
+
+    43% {
+        background-image: url('https://gumlet-images.assettype.com/afaqs/2024-05/4a284864-e3d2-48be-8ecf-e91f6b17d026/Flipkart_Iris.png?auto=format,compress&fmt=webp&format=webp&w=1200&h=900&dpr=1.0');
+
+    }
+
+    66% {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs2BpLryfOPE_W4zr2-grBJ5DCrv50dGAiaQ&s');
+    }
+
+    80% {
+        background-image: url('https://play-lh.googleusercontent.com/Ornb14bIU5LtffQy9wwf1bjPP27s7sLG9VyXE5mJyf4Hy585RZcOTERMd93Apjunjzw');
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url("https://www.investopedia.com/thmb/zLNtCbKmEiz6aIY5Xz9bpX-pnWA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/amazon-logo-56a8fc825f9b58b7d0f7019e.jpg");
+
+    }
+}
+
+.h1 {
+    text-align: center;
+    font-family: Display Fonts;
+
+    font-size: 50px;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000;
+}
+
+.list-logos {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    margin: 2px;
+
+}
+
+@media screen and (min-width:768px) {
+    .list-logos {
+        width: 6rem;
+        height: 6rem;
+        margin: 1rem;
+
+    }
+}
+
+.logo-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr {
+    border: 1px solid black;
+    margin: 20px 0;
+
+}
+
+.logo2 {
+    width: 50px;
+}
+
+.heading {
+    color: black;
+    padding-left: 15px;
+    font-family: Serif;
+    font-size: 30px;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: Space-between;
+    background-color: PowderBlue;
+
+}
+
+.sec2 {
+    display: flex;
+    justify-content: Space-between;
+    background-color: #e6f587;
+
+}
+
+.sec3 {
+    display: flex;
+    justify-content: Space-between;
+    background-color: #eb6863;
+
+}
+
+.sec4 {
+    display: flex;
+    justify-content: Space-between;
+    background-color: #59AAFA;
+}
+
+
+.sec1_A {
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.products {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 1rem;
+
+}
+
+.images {
+    margin: 2px;
+    padding: 0;
+    display: block;
+    width: 7rem;
+    height: 10rem;
+
+}
+
+@media screen and (min-width:768px) {
+    .images {
+        width: 20rem;
+        height: 25rem;
+    }
+}
+
+
+.images:hover {
+    transform: scale(1.1);
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.visit:hover .text {
+    opacity: 1;
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: Serif;
+    color: #fff;
+    opacity: 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+    transition: opacity 0.3s ease;
+    font-weight: 500;
+    text-align: center;
+    pointer-events: none;
+}
+
+@media screen and (min-width:768px) {
+    .text {
+        font-size: 30px;
+    }
+}
+
+.products:hover .text {
+    opacity: 1;
+
+}
+
+.b:hover .text {
+    opacity: 1;
+    color: #fff;
+}
+
+.text1 {
+    opacity: 0;
+}
+
+.products:hover .text1 {
+    opacity: 1;
+}
+
+.product-sec {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+
+}
+
+.hra {
+    border: none;
+    height: 1px;
+    background-color: gray;
+    margin: 2px 0;
+    border-radius: 2px;
+}
+
+
+.amazon-sec {
+    background-color: PowderBlue;
+
+
+}
+
+.flipkart-sec {
+    background-color: #e6f587;
+}
+
+.reliance-sec {
+    background-color: #eb6863;
+}
+
+.shopcy-sec {
+    background-color: #59aafa;
+}
+
+.button {
+    padding: 1rem;
+    display: flex;
+    justify-content: Space-around;
+}
+
+.button2 {
+
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:768px) {
+    .button2 {
+        display: flex;
+        padding: 5px;
+        justify-content: Space-around;
+    }
+}
+
+button {
+    display: inline-flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+
+    text-align: center;
+}
+
+button:hover {
+    background-color: DarkGray;
+    border-color: #000;
+
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.image-description {
+    font-size: 15px;
+    color: #fff;
+    margin-top: 10px;
+    opacity: 0;
+    background-color: #a264b0;
+    border-radius: 1rem;
+    transition: opacity 0.3s ease;
+    font-weight: bold;
+}
+
+@media screen and (min-width:768px) {
+    .image-description {
+        font-size: 20px;
+    }
+}
+
+.image-container:hover .image-description {
+    opacity: 1;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
